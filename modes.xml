@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="zho-morph" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="zho-gener" install="yes">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="zho.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="zho-tagger" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="zho.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="zho-disam" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 --trace -g">
+        <file name="apertium-zho.zho.rlx"/>
+      </program>
+    </pipeline>
+  </mode>
+
+</modes>
+

@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-zho
+
+Name: apertium-zho
+Description: Finite-state morphological transducer and constraint grammar for Chinese 
+Version: @VERSION@
+

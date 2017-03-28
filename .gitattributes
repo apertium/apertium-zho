@@ -1,3 +1,17 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-zho.pc.in -text
+/apertium-zho.post-zho.dix -text
+/apertium-zho.zho.acx -text
 /apertium-zho.zho.dix -text
+/apertium-zho.zho.rlx -text
+/autogen.sh -text
+/configure.ac -text
 dev/zho.speling.txt -text
+/modes.xml -text
+/zho.prob -text svneol=unset#unset
