@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Chinese], [0.1.0], [unhammer@fsfe.org], [apertium-zho], [http://wiki.apertium.org/wiki/Apertium-zho])
+AC_INIT([Apertium Chinese], [0.1.0], [unhammer@fsfe.org], [apertium-zho], [https://wiki.apertium.org/wiki/Apertium-zho])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
