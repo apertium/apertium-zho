@@ -1,0 +1,20 @@
+[1HNeOiZeFu7g#0] ^2/2<num>/2<num>$
+[/1HNeOiZeFu7g]
+[1qTnm1bCErtu#0] ^？/？<sent>$
+[/1qTnm1bCErtu]
+[8RRhHNYQAL9X#0] ^：/：<sent>$
+[/8RRhHNYQAL9X]
+[96Yr1HyherYE#0] ^蓬照/*蓬照$
+[/96Yr1HyherYE]
+[RSnnyM3kDQaF#0] ^错/错<n>$
+[/RSnnyM3kDQaF]
+[d2i2PRIetTsC#0] ^明/明<n>/明<vblex>/明<adj>$ ^格/格<vblex>$ ^款/款<n>$
+[/d2i2PRIetTsC]
+[hyJhYgQhft2z#0] ^72/72<num>$
+[/hyJhYgQhft2z]
+[p6HSBcz9kRXw#0] ^虐生/*虐生$
+[/p6HSBcz9kRXw]
+[um3ZnOJwtY-j#0] ^犹/*犹$
+[/um3ZnOJwtY-j]
+[utzDoI4QS-If#0] ^80,4%/80,4%<num><percent>$
+[/utzDoI4QS-If]
