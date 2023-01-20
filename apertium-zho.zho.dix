@@ -302,7 +302,7 @@
 		<e lm="你"><i>你</i><par n="我__prn"/></e>
 		<e lm="他"><i>他</i><par n="我__prn"/></e>
 		<e lm="她"><i>她</i><par n="我__prn"/></e>
-                 <e lm="他们"><i>他们</i><par n="我__prn"/></e>
+                <e lm="他们"><i>他们</i><par n="我__prn"/></e>
 		<e lm="小明"><i>小明</i><par n="爱人__np"/></e> <!--Jaime-->
 		<e lm="小红"><i>小红</i><par n="爱人__np"/></e>  <!--Maria-->
 		<e lm="他们的"><i>他们的</i><par n="这__det"/></e>  <!--su-->
@@ -310,6 +310,7 @@
 		<e lm="猫儿"><i>猫儿</i><par n="爱人__n"/></e> <!--gatito-->
                 <e lm="猫 儿"><i>猫 儿</i><par n="爱人__n"/></e> <!--gatito-->
                 <e lm="猫"><i>猫</i><par n="爱人__n"/></e> <!--gato-->
+		<e lm="种子"><i>种子</i><par n="爱人__n"/></e>
 		<e lm="在"><i>在</i><par n="以上__pr"/></e> <!--en-->
 		<e lm="屋子"><i>屋子</i><par n="爱人__n"/></e> <!--casa-->
 		<e lm="里面"><i>里面</i><par n="爱人__n"/></e> <!--interior-->
@@ -317,6 +318,7 @@
                 <e lm="窗口"><i>窗口</i><par n="爱人__n"/></e> <!--ventana-->
 		<e lm="到"><i>到</i><par n="以上__pr"/></e>  <!--a-->
 		<e lm="和"><i>和</i><par n="并且__cnjcoo"/></e>  <!--y-->
+		<e lm="但是"><i>但是</i><par n="并且__cnjcoo"/></e>  <!--y-->
 		<e lm="玩耍"><i>玩耍</i><par n="爱__vblex"/></e>  <!--jugar-->
 		<e lm="赶快"><i>赶快</i><par n="暗暗__adv"/></e>  <!--rapidamente-->
                 <e lm="快"><i>快</i><par n="平__adj"/></e>  <!--rapido-->
@@ -332,27 +334,75 @@
                 <e lm="前面"><i>前面</i><par n="以上__pr"/></e>  <!--frente a -->
                 <e lm="不到"><i>不到</i><par n="暗暗__adv"/></e>  <!--nada-->
 		<e lm="正在"><i>正在</i><par n="正在__vblexestar"/></e>  <!--estar-->
+		<e lm="正在"><i>正在</i><par n="爱__vblex"/></e>  <!--estar-->
 		<e lm="倒数"><i>倒数</i><par n="爱__vblex"/></e>  <!--count-->
 		<e lm="又"><i>又</i><par n="并且__cnjcoo"/></e>  <!--y-->
                 <e lm="附近"><i>附近</i><par n="暗暗__adv"/></e> <!--cerca-->
-                <e lm="什么"><i>什么</i><par n="暗暗__adv"/></e> <!--qué--> 
+                <e lm="什么"><i>什么</i><par n="暗暗__adv"/></e> <!--qué-->
+		<e lm="什么"><i>什么</i><par n="我__prn"/></e> <!--qué--> 
+
 		<e lm="吗"><i>吗</i><par n="吗__qt"/></e>
                 <e lm="呢"><i>呢</i><par n="我__prn"/></e> <!--esto-->
                 <e lm="原来"><i>原来</i><par n="暗暗__adv"/></e>  <!--realmente-->
                 <e lm="个"><i>个</i><par n="个__num"/></e>
                 <e lm="游戏"><i>游戏</i><par n="爱人__n"/></e>
-               <e lm="当"><i>当</i><par n="并且__cnjadv"/></e> <!--cuando-->
-               <e lm="右"><i>右</i><par n="爱人__n"/></e> <!--derecha-->
-               <e lm="找"><i>坐了</i><par n="爱__vblex"/></e>
-               <e lm="哪里"><i>哪里</i><par n="暗暗__adv"/></e> <!--dónde-->
-               <e lm="看到"><i>看到</i><par n="爱__vblex"/></e>
-           <e lm="看到 了"><i>看到 了</i><par n="爱__vblex"/></e>
+               	<e lm="当"><i>当</i><par n="并且__cnjadv"/></e> <!--cuando-->
+               	<e lm="右"><i>右</i><par n="爱人__n"/></e> <!--derecha-->
+               	<e lm="找"><i>坐了</i><par n="爱__vblex"/></e>
+               	<e lm="哪里"><i>哪里</i><par n="暗暗__adv"/></e> <!--dónde-->
+               	<e lm="看到"><i>看到</i><par n="爱__vblex"/></e>
+           	<e lm="看到 了"><i>看到 了</i><par n="爱__vblex"/></e>
+		
+		
+		<e lm="嘱咐"><i>嘱咐</i><par n="爱__vblex"/></e>
+		
+		
+		<e lm="鬼"><i>鬼</i><par n="爱人__n"/></e> 
+		<e lm="权柄"><i>权柄</i><par n="爱人__n"/></e> 
+		<e lm="再"><i>再</i><par n="暗暗__adv"/></e>  
+		<e lm="给"><i>给</i><par n="爱__vblex"/></e>
+		
+		<e lm="人"><i>人</i><par n="爱人__n"/></e> 
+		<e lm="门"><i>门</i><par n="爱人__n"/></e> 
+		<e lm="角"><i>角</i><par n="爱人__n"/></e> 
+		
+		<e lm="灵魂"><i>灵魂</i><par n="爱人__n"/></e> 
+		<e lm="向下"><i>向下</i><par n="暗暗__adv"/></e> 
+		<e lm="野外"><i>野外</i><par n="爱人__n"/></e>  
+		<e lm="山谷"><i>山谷</i><par n="爱人__n"/></e>
+    
+		<e lm="他俩"><i>他俩</i><par n="我__prn"/></e> 
+		<e lm="扔"><i>扔</i><par n="爱__vblex"/></e> 
+		<e lm="下"><i>下</i><par n="x__post"/></e> 
+		<e lm="跟从"><i>跟从</i><par n="爱__vblex"/></e> 
+		<e lm="西蒙"><i>西蒙</i><par n="我__prn"/></e> 
+		<e lm="美丽"><i>美丽</i><par n="平__adj"/></e> 
+		<e lm="几"><i>几</i><par n="平__adj"/></e> 
+		<e lm="很多"><i>很多</i><par n="平__adj"/></e> 
+		
+		
+		<e lm="嘴"><i>嘴</i><par n="爱人__n"/></e> 
+		<e lm="剩"><i>剩</i><par n="爱__vblex"/></e>
+		<e lm="那里"><i>那里</i><par n="我__prn"/></e>
+		<e lm="文士"><i>文士</i><par n="爱人__n"/></e> 
+		
+		<e lm="木高"><i>木高</i><par n="我__prn"/></e> 
+		<e lm="他的"><i>他的</i><par n="我__prn"/></e> 
+		<e lm="你的"><i>你的</i><par n="我__prn"/></e> 
+
+		<e lm="猪"><i>猪</i><par n="爱人__n"/></e> 
+		<e lm="鸡"><i>鸡</i><par n="爱人__n"/></e> 
+		
+		<e lm="成"><i>成</i><par n="x__post"/></e> 
+		<e lm="染"><i>染</i><par n="爱__vblex"/></e> 
+		
+		
            
               <e lm="哪儿"><i>哪儿</i><par n="暗暗__adv"/></e>
            <e lm="狗儿"><i>狗儿</i><par n="爱人__n"/></e> <!--perrito-->
        <e lm="狗 儿"><i>狗 儿</i><par n="爱人__n"/></e> <!--perrito-->
               <e lm="狗"><i>狗</i><par n="爱人__n"/></e> <!--perro-->
-              <e lm="了"><i>了</i><par n="这__det"/></e> <!--particula PASSAT-->
+              <e lm="了"><i>了</i><par n="以上__pr"/></e> <!--particula PASSAT-->
            <e lm="当然"><i>当然</i><par n="暗暗__adv"/></e>  <!--claro-->
         <e lm="不会"><i>不会</i><par n="不能__vbmodneg"/></e> <!--no puede-->
         <e lm="说话"><i>说话</i><par n="爱__vblex"/></e> <!--hablar-->
@@ -531,6 +581,7 @@
 		<e lm="酒"><i>酒</i><par n="爱人__n"/></e>
 		<e lm="句子"><i>句子</i><par n="爱人__n"/></e>
 		<e lm="决定"><i>决定</i><par n="爱人__n"/></e>
+		<e lm="街上"><i>街上</i><par n="爱人__n"/></e>
 		<e lm="咖啡"><i>咖啡</i><par n="爱人__n"/></e>
 		<e lm="卡车"><i>卡车</i><par n="爱人__n"/></e>
 		<e lm="开始"><i>开始</i><par n="爱人__n"/></e>
@@ -551,11 +602,23 @@
 		<e lm="楼"><i>楼</i><par n="爱人__n"/></e>
 		<e lm="路"><i>路</i><par n="爱人__n"/></e>
 		<e lm="妈妈"><i>妈妈</i><par n="爱人__n"/></e>
+		<e lm="红酒"><i>红酒</i><par n="爱人__n"/></e>		
 		<e lm="马"><i>马</i><par n="爱人__n"/></e>
 		<e lm="妹妹"><i>妹妹</i><par n="爱人__n"/></e>
 		<e lm="面包"><i>面包</i><par n="爱人__n"/></e>
 		<e lm="民族"><i>民族</i><par n="爱人__n"/></e>
 		<e lm="母亲"><i>母亲</i><par n="爱人__n"/></e>
+		<e lm="预言家"><i>预言家</i><par n="爱人__n"/></e>
+		<e lm="使者"><i>使者</i><par n="爱人__n"/></e>
+		<e lm="约翰"><i>约翰</i><par n="爱人__n"/></e>
+		<e lm="罪行"><i>罪行</i><par n="爱人__n"/></e>
+		<e lm="大河"><i>大河</i><par n="爱人__n"/></e>
+		<e lm="腰"><i>腰</i><par n="爱人__n"/></e>
+		<e lm="猪"><i>猪</i><par n="爱人__n"/></e>
+		<e lm="岩蜂"><i>岩蜂</i><par n="爱人__n"/></e>
+		<e lm="力量"><i>力量</i><par n="爱人__n"/></e>
+		<e lm="生水"><i>生水</i><par n="爱人__n"/></e>
+
 		<e lm="南"><i>南</i><par n="爱人__n"/></e>
 		<e lm="内"><i>内</i><par n="x__adv"/></e>
 		<e lm="内容"><i>内容</i><par n="爱人__n"/></e>
@@ -690,6 +753,7 @@
 		<e lm="影响"><i>影响</i><par n="爱人__n"/></e>
 		<e lm="邮票"><i>邮票</i><par n="爱人__n"/></e>
 		<e lm="友谊"><i>友谊</i><par n="爱人__n"/></e>
+		<e lm="鲁珀"><i>鲁珀</i><par n="爱人__n"/></e>
 		<e lm="右"><i>右</i><par n="爱人__n"/></e>
 		<e lm="鱼"><i>鱼</i><par n="爱人__n"/></e>
 		<e lm="雨"><i>雨</i><par n="爱人__n"/></e>
@@ -1127,6 +1191,7 @@
     <e lm="回去"><i>回去</i><par n="x__vblex"/></e>
     <e lm="回来"><i>回来</i><par n="x__vblex"/></e>
     <e lm="回答"><i>回答</i><par n="x__vblex"/></e>
+    <e lm="浇"><i>浇</i><par n="x__vblex"/></e>
     <e lm="团结"><i>团结</i><par n="x__n"/></e>
     <e lm="困难"><i>困难</i><par n="x__adj"/></e>
     <e lm="困难"><i>困难</i><par n="x__n"/></e>
@@ -1260,7 +1325,9 @@
     <e lm="春天"><i>春天</i><par n="x__n"/></e>
     <e lm="暖和"><i>暖和</i><par n="x__adj"/></e>
     <e lm="最后"><i>最后</i><par n="x__adj"/></e>
+    <e lm="所有"><i>所有</i><par n="x__adj"/></e>
     <e lm="最近"><i>最近</i><par n="x__adv"/></e>
+    <e lm="差不多地"><i>差不多地</i><par n="x__adv"/></e>
     <e lm="月亮"><i>月亮</i><par n="x__n"/></e>
     <e lm="月球"><i>月球</i><par n="x__n"/></e>
     <e lm="有些"><i>有些</i><par n="x__adv"/></e>
@@ -1509,6 +1576,7 @@
 <e lm="三十八"><i>三十八</i><par n="个__num"/></e>
 <e lm="三十六"><i>三十六</i><par n="个__num"/></e>
 <e lm="三十四"><i>三十四</i><par n="个__num"/></e>
+<e lm="件"><i>件</i><par n="个__num"/></e>
 <e lm="三方"><i>三方</i><par n="爱人__n"/></e>
 <e lm="三节"><i>三节</i><par n="爱人__n"/></e>
 <e lm="三角"><i>三角</i><par n="爱人__n"/></e>
@@ -2020,6 +2088,7 @@
 <e lm="信奉"><i>信奉</i><par n="爱__vblex"/></e>
 <e lm="信守"><i>信守</i><par n="爱__vblex"/></e>
 <e lm="信徒"><i>信徒</i><par n="爱人__n"/></e>
+<e lm="严厉地"><i>严厉地</i><par n="暗暗__adv"/></e>
 <e lm="信心"><i>信心</i><par n="爱人__n"/></e>
 <e lm="信念"><i>信念</i><par n="爱人__n"/></e>
 <e lm="信息"><i>信息</i><par n="爱人__n"/></e>
@@ -2220,6 +2289,7 @@
 <e lm="其实"><i>其实</i><par n="暗暗__adv"/></e>
 <e lm="具体"><i>具体</i><par n="暗暗__adv"/></e>
 <e lm="具体"><i>具体</i><par n="平__adj"/></e>
+<e lm="用力"><i>用力</i><par n="平__adj"/></e>
 <e lm="具备"><i>具备</i><par n="爱__vblex"/></e>
 <e lm="具有"><i>具有</i><par n="爱__vblex"/></e>
 <e lm="典范"><i>典范</i><par n="爱人__n"/></e>
@@ -2525,6 +2595,7 @@
 <e lm="千"><i>千</i><par n="个__num"/></e>
 <e lm="升级"><i>升级</i><par n="爱人__n"/></e>
 <e lm="半"><i>半</i><par n="个__num"/></e>
+<e lm="碗"><i>碗</i><par n="个__num"/></e>
 <e lm="半年"><i>半年</i><par n="爱人__n"/></e>
 <e lm="半数"><i>半数</i><par n="爱人__n"/></e>
 <e lm="协会"><i>协会</i><par n="爱人__n"/></e>
@@ -2972,11 +3043,13 @@
 <e lm="均衡"><i>均衡</i><par n="爱人__n"/></e>
 <e lm="坐标"><i>坐标</i><par n="爱人__n"/></e>
 <e lm="坚信"><i>坚信</i><par n="爱__vblex"/></e>
+<e lm="穿过"><i>穿过</i><par n="爱__vblex"/></e>
 <e lm="坚决"><i>坚决</i><par n="暗暗__adv"/></e>
 <e lm="坚决"><i>坚决</i><par n="平__adj"/></e>
 <e lm="坚固"><i>坚固</i><par n="平__adj"/></e>
 <e lm="坚定"><i>坚定</i><par n="暗暗__adv"/></e>
 <e lm="坚定"><i>坚定</i><par n="平__adj"/></e>
+<e lm="所有"><i>所有</i><par n="平__adj"/></e>
 <e lm="坚实"><i>坚实</i><par n="平__adj"/></e>
 <e lm="垃圾"><i>垃圾</i><par n="爱人__n"/></e>
 <e lm="型"><i>型</i><par n="爱人__n"/></e>
@@ -3096,6 +3169,7 @@
 <e lm="大好"><i>大好</i><par n="平__adj"/></e>
 <e lm="大学"><i>大学</i><par n="爱人__n"/></e>
 <e lm="大家"><i>大家</i><par n="我__prn"/></e>
+<e lm="所有人"><i>所有人</i><par n="我__prn"/></e>
 <e lm="大小"><i>大小</i><par n="爱人__n"/></e>
 <e lm="大屠杀"><i>大屠杀</i><par n="爱人__n"/></e>
 <e lm="大幅度"><i>大幅度</i><par n="暗暗__adv"/></e>
@@ -3118,7 +3192,7 @@
 <e lm="天文学"><i>天文学</i><par n="爱人__n"/></e>
 <e lm="天气"><i>天气</i><par n="爱人__n"/></e>
 <e lm="天然"><i>天然</i><par n="平__adj"/></e>
-<e lm="太"><i>太</i><par n="暗暗__adv"/></e>
+<e lm="太"><i>太</i><par n="平__adj"/></e>
 <e lm="失业"><i>失业</i><par n="爱人__n"/></e>
 <e lm="失业"><i>失业</i><par n="爱__vblex"/></e>
 <e lm="失业率"><i>失业率</i><par n="爱人__n"/></e>
@@ -3752,6 +3826,8 @@
 <e lm="往来"><i>往来</i><par n="爱人__n"/></e>
 <e lm="征兵"><i>征兵</i><par n="爱人__n"/></e>
 <e lm="征兵"><i>征兵</i><par n="爱__vblex"/></e>
+<e lm="像"><i>像</i><par n="爱__vblex"/></e>
+
 <e lm="征服"><i>征服</i><par n="爱__vblex"/></e>
 <e lm="征求"><i>征求</i><par n="爱__vblex"/></e>
 <e lm="征用"><i>征用</i><par n="爱__vblex"/></e>
@@ -7816,6 +7892,7 @@
 <e lm="迅速"><i>迅速</i><par n="爱人__n"/></e>
 <e lm="过于"><i>过于</i><par n="暗暗__adv"/></e>
 <e lm="过分"><i>过分</i><par n="暗暗__adv"/></e>
+<e lm="用力地"><i>用力地</i><par n="暗暗__adv"/></e>
 <e lm="过剩"><i>过剩</i><par n="爱__vblex"/></e>
 <e lm="过半数"><i>过半数</i><par n="平__adj"/></e>
 <e lm="过半数"><i>过半数</i><par n="爱人__n"/></e>
@@ -8869,6 +8946,7 @@
 <e lm="学位"><i>学位</i><par n="x__n"/></e> <!-- título -->
 <e lm="修"><i>修</i><par n="x__n"/></e> <!-- reparación -->
 <e lm="学制"><i>学制</i><par n="x__n"/></e> <!-- sistema escolar -->
+<e lm="地"><i>地</i><par n="x__part"/></e> <!-- adverbialiser -->
 
 
 
