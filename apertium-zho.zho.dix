@@ -16,6 +16,10 @@
     <sdef n="ij" c="Interjection"/>
     <sdef n="cnj" c="Conjunction"/>
     <sdef n="prn" c="Pronoun"/>
+	<sdef n="pers" c="Personal"/>
+	<sdef n="p1" c="1st person"/>
+	<sdef n="p2" c="2nd person"/>
+	<sdef n="p3" c="3rd person"/>
                     <sdef n="cnjadv" /> 
             <sdef n="vblexestar" /> 
                  <sdef n="mf"/>
@@ -32,6 +36,9 @@
         		<sdef n="sent"/>
             		<sdef n="qt"/>
             		<sdef n="qst"/>
+	<sdef n="m" c="masc"/>
+	<sdef n="f" c="fem"/>
+	<sdef n="nt" c="neut"/>
 
 
 
@@ -296,13 +303,46 @@
     <pardef n="x__prn">
       <e><p><l></l><r><s n="prn"/></r></p></e>
     </pardef>
+    <pardef n="x__prn_1s">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_1p">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_2s">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_2p">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_3sm">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_3sf">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_3snt">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nt"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_3pm">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="m"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_3pf">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="f"/></r></p></e>
+    </pardef>
+    <pardef n="x__prn_3pnt">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="nt"/></r></p></e>
+    </pardef>
   </pardefs>
 	<section id="main" type="postblank">
-		<e lm="我"><i>我</i><par n="我__prn"/></e>
-		<e lm="你"><i>你</i><par n="我__prn"/></e>
-		<e lm="他"><i>他</i><par n="我__prn"/></e>
-		<e lm="她"><i>她</i><par n="我__prn"/></e>
-                <e lm="他们"><i>他们</i><par n="我__prn"/></e>
+		<e lm="我"><i>我</i><par n="x__prn_1s"/></e>
+		<e lm="你"><i>你</i><par n="x__prn_2s"/></e>
+		<e lm="他"><i>他</i><par n="x__prn_3sm"/></e>
+		<e lm="她"><i>她</i><par n="x__prn_3sf"/></e>
+                <e lm="他们"><i>他们</i><par n="x__prn_3pm"/></e>
+                <e lm="她们"><i>她们</i><par n="x__prn_3pf"/></e>
+                <e lm="它"><i>它</i><par n="x__prn_3snt"/></e>
+                <e lm="它们"><i>它们</i><par n="x__prn_3pnt"/></e>
 		<e lm="小明"><i>小明</i><par n="爱人__np"/></e> <!--Jaime-->
 		<e lm="小红"><i>小红</i><par n="爱人__np"/></e>  <!--Maria-->
 		<e lm="他们的"><i>他们的</i><par n="这__det"/></e>  <!--su-->
@@ -985,9 +1025,9 @@
     <e lm="些"><i>些</i><par n="x__adv"/></e>
     <e lm="人"><i>人</i><par n="x__n"/></e>
     <e lm="从"><i>从</i><par n="x__pr"/></e>
-    <e lm="他"><i>他</i><par n="x__prn"/></e>
+    <e lm="他"><i>他</i><par n="x__prn_3sm"/></e>
     <e lm="会"><i>会</i><par n="x__vblex"/></e>
-    <e lm="你"><i>你</i><par n="x__prn"/></e>
+    <e lm="你"><i>你</i><par n="x__prn_2s"/></e>
     <e lm="元"><i>元</i><par n="x__n"/></e>
     <e lm="八"><i>八</i><par n="x__num"/></e>
     <e lm="六"><i>六</i><par n="x__num"/></e>
@@ -1016,7 +1056,7 @@
     <e lm="大"><i>大</i><par n="x__adj"/></e>
     <e lm="天"><i>天</i><par n="x__n"/></e>
     <e lm="头"><i>头</i><par n="x__n"/></e>
-    <e lm="她"><i>她</i><par n="x__prn"/></e>
+    <e lm="她"><i>她</i><par n="x__prn_3sf"/></e>
     <e lm="好"><i>好</i><par n="x__adj"/></e>
     <e lm="字"><i>字</i><par n="x__n"/></e>
     <e lm="学"><i>学</i><par n="x__vblex"/></e>
@@ -1026,7 +1066,7 @@
     <e lm="差"><i>差</i><par n="x__adj"/></e>
     <e lm="市"><i>市</i><par n="x__n"/></e>
     <e lm="很"><i>很</i><par n="x__adv"/></e>
-    <e lm="我"><i>我</i><par n="x__prn"/></e>
+    <e lm="我"><i>我</i><par n="x__prn_1s"/></e>
     <e lm="手"><i>手</i><par n="x__n"/></e>
     <e lm="把"><i>把</i><par n="x__prn"/></e>
     <e lm="提"><i>提</i><par n="x__vblex"/></e>
@@ -1107,7 +1147,7 @@
     <e lm="今天"><i>今天</i><par n="x__n"/></e>
     <e lm="介绍"><i>介绍</i><par n="x__vblex"/></e>
     <e lm="从前"><i>从前</i><par n="x__adv"/></e>
-    <e lm="他们"><i>他们</i><par n="x__prn"/></e>
+    <e lm="他们"><i>他们</i><par n="x__prn_3pm"/></e>
     <e lm="代表"><i>代表</i><par n="x__n"/></e>
     <e lm="代表"><i>代表</i><par n="x__vblex"/></e>
     <e lm="以为"><i>以为</i><par n="x__vblex"/></e>
@@ -1117,7 +1157,7 @@
     <e lm="会话"><i>会话</i><par n="x__n"/></e>
     <e lm="但是"><i>但是</i><par n="x__adv"/></e>
     <e lm="体育"><i>体育</i><par n="x__n"/></e>
-    <e lm="你们"><i>你们</i><par n="x__prn"/></e>
+    <e lm="你们"><i>你们</i><par n="x__prn_2p"/></e>
     <e lm="使用"><i>使用</i><par n="x__vblex"/></e>
     <e lm="便宜"><i>便宜</i><par n="x__adj"/></e>
     <e lm="信封"><i>信封</i><par n="x__n"/></e>
@@ -1288,7 +1328,7 @@
     <e lm="感谢"><i>感谢</i><par n="x__vblex"/></e>
     <e lm="愿意"><i>愿意</i><par n="x__vblex"/></e>
     <e lm="成绩"><i>成绩</i><par n="x__n"/></e>
-    <e lm="我们"><i>我们</i><par n="x__prn"/></e>
+    <e lm="我们"><i>我们</i><par n="x__prn_1p"/></e>
     <e lm="所以"><i>所以</i><par n="x__adv"/></e>
     <e lm="手表"><i>手表</i><par n="x__n"/></e>
     <e lm="打算"><i>打算</i><par n="x__vblex"/></e>
@@ -1893,8 +1933,8 @@
 <e lm="从而"><i>从而</i><par n="暗暗__adv"/></e>
 <e lm="从速"><i>从速</i><par n="暗暗__adv"/></e>
 <e lm="仔细"><i>仔细</i><par n="暗暗__adv"/></e>
-<e lm="他"><i>他</i><par n="我__prn"/></e>
-<e lm="他们"><i>他们</i><par n="我__prn"/></e>
+<e lm="他"><i>他</i><par n="x__prn_3sm"/></e>
+<e lm="他们"><i>他们</i><par n="x__prn_3pm"/></e>
 <e lm="付"><i>付</i><par n="爱__vblex"/></e>
 <e lm="付出"><i>付出</i><par n="爱人__n"/></e>
 <e lm="付款"><i>付款</i><par n="爱人__n"/></e>
@@ -3216,7 +3256,7 @@
 <e lm="奴役"><i>奴役</i><par n="爱__vblex"/></e>
 <e lm="奴隶"><i>奴隶</i><par n="爱人__n"/></e>
 <e lm="奴隶制"><i>奴隶制</i><par n="爱人__n"/></e>
-<e lm="她"><i>她</i><par n="我__prn"/></e>
+<e lm="她"><i>她</i><par n="x__prn_3sf"/></e>
 <e lm="好"><i>好</i><par n="平__adj"/></e>
 <e lm="好处"><i>好处</i><par n="爱人__n"/></e>
 <e lm="好的"><i>好的</i><par n="爱__vblex"/></e>
@@ -4087,7 +4127,7 @@
 <e lm="成见"><i>成见</i><par n="爱人__n"/></e>
 <e lm="成败"><i>成败</i><par n="爱人__n"/></e>
 <e lm="成长"><i>成长</i><par n="爱__vblex"/></e>
-<e lm="我们"><i>我们</i><par n="我__prn"/></e>
+<e lm="我们"><i>我们</i><par n="x__prn_1p"/></e>
 <e lm="戒"><i>戒</i><par n="爱人__n"/></e>
 <e lm="戒"><i>戒</i><par n="爱__vblex"/></e>
 <e lm="或"><i>或</i><par n="暗暗__adv"/></e>
@@ -8765,7 +8805,7 @@
 <e lm="增加 了"><i>增加 了</i><par n="x__vblex"/></e> <!--aumentar-->
 <e lm="比 以前 更"><i>比 以前 更</i><par n="x__det"/></e> <!--más-->
 <e lm="地 说"><i>地 说</i><par n="x__vblex"/></e> <!--decir-->
-<e lm="你们"><i>你们</i><par n="x__prn"/></e> <!--usted-->
+<e lm="你们"><i>你们</i><par n="x__prn_2p"/></e> <!--usted-->
 <e lm="国家 在"><i>国家 在</i><par n="x__n"/></e> <!-- país-->
 <e lm="西方"><i>西方</i><par n="x__n"/></e> <!--oeste-->
 <e lm="几 个"><i>几 个</i><par n="x__det"/></e> <!--varios-->
