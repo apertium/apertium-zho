@@ -337,6 +337,7 @@
 	<section id="main" type="postblank">
 		<e lm="我"><i>我</i><par n="x__prn_1s"/></e>
 		<e lm="你"><i>你</i><par n="x__prn_2s"/></e>
+		<e lm="您"><i>您</i><par n="x__prn_2s"/></e>
 		<e lm="他"><i>他</i><par n="x__prn_3sm"/></e>
 		<e lm="她"><i>她</i><par n="x__prn_3sf"/></e>
                 <e lm="他们"><i>他们</i><par n="x__prn_3pm"/></e>
